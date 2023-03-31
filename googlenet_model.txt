@@ -1,0 +1,30 @@
+E:\git\FYP\venv\python\Scripts\python.exe E:\git\FYP\googlenet_model.py
+Found 800 images belonging to 10 classes.
+Found 200 images belonging to 10 classes.
+2023-03-31 16:51:13.708638: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/10
+25/25 [==============================] - 91s 3s/step - loss: 20.7551 - accuracy: 0.4650 - val_loss: 2.2288 - val_accuracy: 0.7812
+Epoch 2/10
+25/25 [==============================] - 85s 3s/step - loss: 0.5695 - accuracy: 0.9050 - val_loss: 0.1427 - val_accuracy: 0.9844
+Epoch 3/10
+25/25 [==============================] - 86s 3s/step - loss: 0.0920 - accuracy: 0.9812 - val_loss: 0.0725 - val_accuracy: 0.9844
+Epoch 4/10
+25/25 [==============================] - 86s 3s/step - loss: 0.1122 - accuracy: 0.9688 - val_loss: 0.0114 - val_accuracy: 1.0000
+Epoch 5/10
+25/25 [==============================] - 86s 3s/step - loss: 0.0589 - accuracy: 0.9812 - val_loss: 0.0454 - val_accuracy: 0.9792
+Epoch 6/10
+25/25 [==============================] - 86s 3s/step - loss: 0.0812 - accuracy: 0.9775 - val_loss: 0.0784 - val_accuracy: 0.9844
+Epoch 7/10
+25/25 [==============================] - 86s 3s/step - loss: 0.0558 - accuracy: 0.9862 - val_loss: 0.0741 - val_accuracy: 0.9896
+Epoch 8/10
+25/25 [==============================] - 86s 3s/step - loss: 0.0265 - accuracy: 0.9925 - val_loss: 0.2324 - val_accuracy: 0.9740
+Epoch 9/10
+25/25 [==============================] - 86s 3s/step - loss: 0.0339 - accuracy: 0.9937 - val_loss: 0.0963 - val_accuracy: 0.9740
+Epoch 10/10
+25/25 [==============================] - 86s 3s/step - loss: 0.0149 - accuracy: 0.9937 - val_loss: 0.2488 - val_accuracy: 0.9583
+Found 200 images belonging to 10 classes.
+6/6 [==============================] - 15s 3s/step - loss: 0.5895 - accuracy: 0.9167
+Test accuracy: 0.9166666865348816
+
+Process finished with exit code 0
