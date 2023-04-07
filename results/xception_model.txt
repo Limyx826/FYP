@@ -1,0 +1,30 @@
+E:\git\FYP\venv\python\Scripts\python.exe E:\git\FYP\xception_model.py
+Found 800 images belonging to 10 classes.
+Found 200 images belonging to 10 classes.
+2023-04-04 16:36:01.571079: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/10
+25/25 [==============================] - 166s 6s/step - loss: 3.9534 - accuracy: 0.7575 - val_loss: 0.1555 - val_accuracy: 0.9792
+Epoch 2/10
+25/25 [==============================] - 154s 6s/step - loss: 0.4262 - accuracy: 0.9675 - val_loss: 0.0711 - val_accuracy: 0.9896
+Epoch 3/10
+25/25 [==============================] - 153s 6s/step - loss: 0.2047 - accuracy: 0.9837 - val_loss: 0.0484 - val_accuracy: 0.9896
+Epoch 4/10
+25/25 [==============================] - 152s 6s/step - loss: 0.1204 - accuracy: 0.9862 - val_loss: 0.1721 - val_accuracy: 0.9688
+Epoch 5/10
+25/25 [==============================] - 152s 6s/step - loss: 0.1735 - accuracy: 0.9825 - val_loss: 0.2730 - val_accuracy: 0.9792
+Epoch 6/10
+25/25 [==============================] - 155s 6s/step - loss: 0.4413 - accuracy: 0.9675 - val_loss: 0.7127 - val_accuracy: 0.9635
+Epoch 7/10
+25/25 [==============================] - 151s 6s/step - loss: 0.1697 - accuracy: 0.9837 - val_loss: 0.3836 - val_accuracy: 0.9792
+Epoch 8/10
+25/25 [==============================] - 151s 6s/step - loss: 0.0979 - accuracy: 0.9925 - val_loss: 0.6996 - val_accuracy: 0.9688
+Epoch 9/10
+25/25 [==============================] - 151s 6s/step - loss: 0.2368 - accuracy: 0.9875 - val_loss: 0.0139 - val_accuracy: 0.9896
+Epoch 10/10
+25/25 [==============================] - 151s 6s/step - loss: 0.1069 - accuracy: 0.9912 - val_loss: 0.0872 - val_accuracy: 0.9896
+Found 200 images belonging to 10 classes.
+6/6 [==============================] - 26s 4s/step - loss: 0.2348 - accuracy: 0.9792
+Test accuracy: 0.9791666865348816
+
+Process finished with exit code 0

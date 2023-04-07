@@ -4,7 +4,7 @@ from tensorflow.keras.preprocessing import image
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.models import load_model
 
-test_dir = 'dataset/test'
+test_dir = '../dataset/test'
 img_width, img_height = 299, 299
 
 # Create data classes
@@ -20,7 +20,7 @@ test_generator = test_datagen.flow_from_directory(
 model = load_model('xception_model.h5')
 
 # Load the image to be classified
-img_path = 'dataset/test/Dynamo/IMG_20230301_011435.jpg_0.jpg'
+img_path = '../dataset/test/Dynamo/IMG_20230301_011435.jpg_0.jpg'
 img = image.load_img(img_path, target_size=(img_width, img_height))
 
 # Preprocess the image

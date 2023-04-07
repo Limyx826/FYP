@@ -1,0 +1,50 @@
+E:\git\FYP\venv\python\Scripts\python.exe E:\git\FYP\resnet50_model.py
+Found 800 images belonging to 10 classes.
+Found 200 images belonging to 10 classes.
+2023-04-05 01:13:57.498882: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/20
+25/25 [==============================] - 127s 5s/step - loss: 13.2221 - accuracy: 0.1612 - val_loss: 4.2597 - val_accuracy: 0.1094
+Epoch 2/20
+25/25 [==============================] - 115s 5s/step - loss: 2.4629 - accuracy: 0.3137 - val_loss: 1.6536 - val_accuracy: 0.4323
+Epoch 3/20
+25/25 [==============================] - 111s 4s/step - loss: 1.5924 - accuracy: 0.4550 - val_loss: 1.9607 - val_accuracy: 0.4167
+Epoch 4/20
+25/25 [==============================] - 110s 4s/step - loss: 1.2641 - accuracy: 0.5688 - val_loss: 1.5181 - val_accuracy: 0.4531
+Epoch 5/20
+25/25 [==============================] - 113s 5s/step - loss: 1.2300 - accuracy: 0.5800 - val_loss: 1.3672 - val_accuracy: 0.5521
+Epoch 6/20
+25/25 [==============================] - 113s 5s/step - loss: 1.0511 - accuracy: 0.6463 - val_loss: 1.4057 - val_accuracy: 0.5104
+Epoch 7/20
+25/25 [==============================] - 114s 5s/step - loss: 1.0431 - accuracy: 0.6325 - val_loss: 1.0201 - val_accuracy: 0.6562
+Epoch 8/20
+25/25 [==============================] - 115s 5s/step - loss: 1.0095 - accuracy: 0.6662 - val_loss: 1.1840 - val_accuracy: 0.6354
+Epoch 9/20
+25/25 [==============================] - 112s 4s/step - loss: 0.9868 - accuracy: 0.6587 - val_loss: 1.1270 - val_accuracy: 0.6198
+Epoch 10/20
+25/25 [==============================] - 113s 5s/step - loss: 0.8017 - accuracy: 0.7237 - val_loss: 0.9694 - val_accuracy: 0.6979
+Epoch 11/20
+25/25 [==============================] - 114s 5s/step - loss: 0.7880 - accuracy: 0.7325 - val_loss: 1.2219 - val_accuracy: 0.5573
+Epoch 12/20
+25/25 [==============================] - 116s 5s/step - loss: 0.8823 - accuracy: 0.7063 - val_loss: 1.3229 - val_accuracy: 0.6094
+Epoch 13/20
+25/25 [==============================] - 115s 5s/step - loss: 0.5979 - accuracy: 0.7975 - val_loss: 0.9410 - val_accuracy: 0.6823
+Epoch 14/20
+25/25 [==============================] - 115s 5s/step - loss: 0.4651 - accuracy: 0.8525 - val_loss: 0.6832 - val_accuracy: 0.7969
+Epoch 15/20
+25/25 [==============================] - 116s 5s/step - loss: 0.4542 - accuracy: 0.8550 - val_loss: 0.9869 - val_accuracy: 0.6771
+Epoch 16/20
+25/25 [==============================] - 119s 5s/step - loss: 0.5108 - accuracy: 0.8288 - val_loss: 0.7209 - val_accuracy: 0.7604
+Epoch 17/20
+25/25 [==============================] - 114s 5s/step - loss: 0.4268 - accuracy: 0.8625 - val_loss: 1.1112 - val_accuracy: 0.6094
+Epoch 18/20
+25/25 [==============================] - 115s 5s/step - loss: 0.7363 - accuracy: 0.8025 - val_loss: 0.9503 - val_accuracy: 0.6979
+Epoch 19/20
+25/25 [==============================] - 112s 4s/step - loss: 0.4109 - accuracy: 0.8700 - val_loss: 0.6758 - val_accuracy: 0.7448
+Epoch 20/20
+25/25 [==============================] - 111s 4s/step - loss: 0.3356 - accuracy: 0.8938 - val_loss: 0.9327 - val_accuracy: 0.6927
+Found 200 images belonging to 10 classes.
+6/6 [==============================] - 20s 3s/step - loss: 1.3013 - accuracy: 0.6042
+Test accuracy: 0.6041666865348816
+
+Process finished with exit code 0

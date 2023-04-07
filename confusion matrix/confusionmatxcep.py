@@ -7,10 +7,10 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.models import load_model
 
 # Define the paths to the dataset directories
-test_dir = 'dataset/test'
+test_dir = '../dataset/test'
 
 # Define image size and batch size
-img_width, img_height = 224, 224
+img_width, img_height = 299, 299
 batch_size = 40
 
 # Create data generator for testing
@@ -23,7 +23,7 @@ test_generator = test_datagen.flow_from_directory(
     shuffle=False)
 
 # Load the pre-trained Xception model and make predictions on the test set
-model_path = 'resnet50_model.h5'
+model_path = '../xception_model.h5'
 model = load_model(model_path)
 test_predictions = model.predict(test_generator, steps=test_generator.samples // batch_size)
 
