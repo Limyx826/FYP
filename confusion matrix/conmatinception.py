@@ -23,7 +23,7 @@ test_generator = test_datagen.flow_from_directory(
     shuffle=False)
 
 # Load the pre-trained Xception model and make predictions on the test set
-model_path = '../googlenet_model.h5'
+model_path = '../inceptionv3_model.h5'
 model = load_model(model_path)
 test_predictions = model.predict(test_generator, steps=test_generator.samples // batch_size)
 

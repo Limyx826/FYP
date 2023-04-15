@@ -17,7 +17,7 @@ test_generator = test_datagen.flow_from_directory(
     shuffle=False)
 
 # Load the model
-model = load_model('googlenet_model.h5')
+model = load_model('inceptionv3_model.h5')
 
 # Load the image to be classified
 img_path = '../dataset/test/Dynamo/IMG_20230301_011435.jpg_0.jpg'

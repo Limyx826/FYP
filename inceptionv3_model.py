@@ -57,7 +57,7 @@ history = model.fit(
     validation_data=validation_generator,
     validation_steps=validation_generator.samples // batch_size)
 
-model.save('googlenet_model.h5')
+model.save('inceptionv3_model.h5')
 
 # Evaluate the model on the test set
 test_dir = 'dataset/test'
