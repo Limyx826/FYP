@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 test_dir = '../dataset/test'
 
 # Define image size and batch size
-img_width, img_height = 299, 299
+img_width, img_height = 224, 224
 batch_size = 40
 
 # Create data generator for testing

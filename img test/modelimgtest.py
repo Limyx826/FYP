@@ -17,10 +17,10 @@ test_generator = test_datagen.flow_from_directory(
     shuffle=False)
 
 # Load the model
-model = load_model('xception_model.h5')
+model = load_model('../xception_model.h5')
 
 # Load the image to be classified
-img_path = '../dataset/test/Dynamo/IMG_20230301_011435.jpg_0.jpg'
+img_path = '../dataset/extra/IMG_20230307_004120.jpg'
 img = image.load_img(img_path, target_size=(img_width, img_height))
 
 # Preprocess the image

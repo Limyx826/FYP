@@ -71,4 +71,5 @@ test_generator = test_datagen.flow_from_directory(
 
 test_loss, test_acc = model.evaluate(test_generator, steps=test_generator.samples // batch_size)
 print('Test accuracy:', test_acc)
+print('Test loss:', test_loss)
 

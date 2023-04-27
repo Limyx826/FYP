@@ -22,4 +22,4 @@ model_path = '../xception_model.h5'
 model = load_model(model_path)
 test_loss, test_acc = model.evaluate(test_generator, steps=test_generator.samples // batch_size)
 print('Test accuracy:', test_acc)
-
+print('Test loss:', test_loss)
